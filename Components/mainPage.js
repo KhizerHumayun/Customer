@@ -40,7 +40,7 @@ export default class App extends Component<{}> {
                     title='TakeAway'
                     color='#f04b48' 
                 />
-            </TouchableOpacity >  
+            </TouchableOpacity>  
 
       </View>
     );
