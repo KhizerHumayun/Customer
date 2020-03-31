@@ -7,11 +7,11 @@ import CardPayment from './Components/cardPayment';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header title='Order Summary' />
+      <Header title='Checkout' />
       <View style={{flex:1}}>
         <CardPayment />
       </View>
-      <Footer title='Proceed to Checkout' />
+      <Footer title='Confirm' />
     </View>
   );
 }
