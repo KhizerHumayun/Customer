@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, KeyboardAvoidingView, TouchableWithoutFeedback, Keyboard, View } from 'react-native';
-import Header from './Components/header';
-import Footer from './Components/footer';
+import OrderSummary from './Screens/OrderSummary';
+
 import CardPayment from './Components/cardPayment';
 
 export default function App() {
